@@ -49,12 +49,12 @@ If everything is working fine, you should see a message like this:
 Add the following to your `mcp.json` file:
 ```
 {
-	"sqlite-tool": {
-      "command": "python",
-      "args": [
-        "-m",
-        "sqlite_tool.sqlite_tool_mcp_server"
-      ]
-    }
+  "sqlite-tool": {
+    "command": "python",
+    "args": [
+      "-m", "sqlite_tool.sqlite_tool_mcp_server",
+      "--db-path", "B:\Tester_control\Tester_tasks.sqlite"
+    ]
+  }
 }
 ```
