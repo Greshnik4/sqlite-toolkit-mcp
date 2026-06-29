@@ -20,13 +20,13 @@ Designed to be used with via MCP protocol with LLMs frontends such as [LM Studio
 Install directly from GitHub:
 
 ```
-pip install git+https://github.com/VadimDu/sqlite-toolkit-mcp.git
+pip install https://github.com/Greshnik4/sqlite-toolkit-mcp.git
 ```
 
 Or install in development mode:
 
 ```
-git clone https://github.com/VadimDu/sqlite-toolkit-mcp.git
+git clone https://github.com/Greshnik4/sqlite-toolkit-mcp.git
 cd pdf-tool
 pip install -e .
 ```
