@@ -49,7 +49,7 @@ If everything is working fine, you should see a message like this:
 Add the following to your `mcp.json` file:
 ```
 {
-  "sqlite-tool": {
+  "sqlite-tool_1": {
     "command": "python",
     "args": [
       "-m", "sqlite_tool.sqlite_tool_mcp_server",
